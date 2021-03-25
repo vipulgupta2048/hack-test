@@ -1,3 +1,0 @@
-sut:
-  build: ./customer-logic
-  command: ./rtt.sh

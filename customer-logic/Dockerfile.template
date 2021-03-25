@@ -1,4 +1,4 @@
-FROM balenalib/%%BALENA_MACHINE_NAME%%-debian:run
+FROM balenalib/raspberrypi3-debian:run
 
 COPY . .
 RUN chmod +x *.sh
