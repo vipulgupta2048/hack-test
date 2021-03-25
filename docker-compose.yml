@@ -1,0 +1,13 @@
+version: '2.1'
+
+services:
+  customer-logic:
+    build: ./customer-logic
+    privileged: true
+    restart: no
+    healthcheck:
+      test: ["CMD", "./rtt.sh"]
+      interval: 30s
+      # timeout: 10s
+      # retries: 5
+      # start_period: 5s

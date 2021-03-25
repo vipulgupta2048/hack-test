@@ -1,0 +1,9 @@
+Why does and who restarts the container on failed healthcheck tests. Our container is restarting and we don't like it. 
+
+## Improvements could be made to Device for custom healthchecks
+
+1. Able to store and view past healthchecks
+2. Verbose logging needed for custom service healthchecks
+3. Healthcheck parameters being added to docker-compose are being respected.
+4. Able to run on their own without pressing `Run Checks` button according to variables set. 
+5. More visibility provided for custom healthchecks 
