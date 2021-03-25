@@ -1,6 +1,6 @@
-FROM balenalib/raspberrypi3-debian:run
+FROM balenalib/raspberrypi3-alpine:run
 
 COPY . .
 RUN chmod +x *.sh
 
-CMD [ "tail", "-f", "/dev/null" ]
+CMD [ "echo", "Hello World" ]
