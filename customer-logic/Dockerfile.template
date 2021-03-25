@@ -1,5 +1,6 @@
 FROM balenalib/raspberrypi3-alpine:run
 
+SHELL ["/bin/bash", "-c"]
 WORKDIR /usr/app/
 COPY . .
 RUN chmod +x rtt.sh
